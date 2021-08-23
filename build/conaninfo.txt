@@ -1,0 +1,77 @@
+[settings]
+    arch=armv8
+    build_type=Release
+    compiler=apple-clang
+    compiler.cppstd=17
+    compiler.libcxx=libc++
+    compiler.version=12.0
+    os=Macos
+
+[requires]
+    bitwyresdk/1.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=armv8
+    arch_build=armv8
+    build_type=Release
+    compiler=apple-clang
+    compiler.cppstd=17
+    compiler.libcxx=libc++
+    compiler.version=12.0
+    os=Macos
+    os_build=Macos
+
+[full_requires]
+    bitwyresdk/1.0:55d5782ab56d8931b95169382d9298453161813d
+    cpr/1.6.2@bitwyre/stable:0340a8ce04741f64655bec78ec9cb02e96026d79
+    cryptopp/8.5.0@bitwyre/stable:d4dbb3ab1230d1c686cf4f3cde783ea37ef5dfd9
+    fmt/6.2.0@bitwyre/stable:8d8ff81fb7fb7e2c77b223b6b97ca2d6ca80402b
+    libcurl/7.67.0:93b9c0b4bc732ef55f9f3dbe93d681584fe2fba8
+    namedtype/20190324@bitwyre/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    nlohmann_json/3.9.1@bitwyre/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    spdlog/1.6.0rc@bitwyre/stable:e0d5c30582f21b97ce0899a22f92f2efd6d88c23
+    zlib/1.2.11:8fafab5ebfba468fd21a497cfee65cafe294bd9e
+
+[full_options]
+    bitwyresdk:build_doc=False
+    bitwyresdk:build_test=False
+    bitwyresdk:shared=False
+    cpr:fPIC=True
+    cpr:shared=False
+    cpr:with_ssl=auto
+    cryptopp:fPIC=True
+    cryptopp:shared=False
+    fmt:shared=False
+    fmt:use_pic=False
+    libcurl:darwin_ssl=deprecated
+    libcurl:fPIC=True
+    libcurl:shared=False
+    libcurl:with_brotli=False
+    libcurl:with_c_ares=False
+    libcurl:with_largemaxwritesize=False
+    libcurl:with_ldap=False
+    libcurl:with_libidn=False
+    libcurl:with_libmetalink=False
+    libcurl:with_libpsl=False
+    libcurl:with_librtmp=False
+    libcurl:with_libssh2=False
+    libcurl:with_nghttp2=False
+    libcurl:with_openssl=deprecated
+    libcurl:with_ssl=darwinssl
+    libcurl:with_winssl=deprecated
+    libcurl:with_wolfssl=deprecated
+    libcurl:with_zlib=True
+    spdlog:shared=False
+    spdlog:use_pic=False
+    zlib:fPIC=True
+    zlib:minizip=deprecated
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+
